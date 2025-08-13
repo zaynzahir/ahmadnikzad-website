@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Nikzad Khurasani - Global Trading Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">
+            <img src="Public/logo.png" alt="Ahmad Nikzad Khurasani Logo" class="logo-animation">
+        </div>
+        <div class="loading-text">Welcome to Ahmad Nikzad Khurasani</div>
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="Public/logo.png" alt="Ahmad Nikzad Khurasani" class="logo">
+                    <span class="company-name">Ahmad Nikzad Khurasani</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <!-- Stars Background Animation -->
+            <div class="stars-container">
+                <div class="stars"></div>
+                <div class="stars2"></div>
+                <div class="stars3"></div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Ahmad Nikzad Khurasani</h1>
+                    <p class="hero-subtitle">Global Trading Excellence</p>
+                    <p class="hero-description">Comprehensive Import/Export Solutions Across Key Commodities</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">Our Services</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-icons">
+                    <div class="service-icon-hero" data-service="oil">
+                        <img src="Public/oil.jpg" alt="Oil Trading" class="hero-service-image">
+                        <span class="icon-label">Oil Trading</span>
+                    </div>
+                    <div class="service-icon-hero" data-service="cotton">
+                        <img src="Public/cotton.jpeg" alt="Cotton Trade" class="hero-service-image">
+                        <span class="icon-label">Cotton Trade</span>
+                    </div>
+                    <div class="service-icon-hero" data-service="dry-fruits">
+                        <img src="Public/dry-friut.jpg" alt="Dry Fruits Export" class="hero-service-image">
+                        <span class="icon-label">Dry Fruits</span>
+                    </div>
+                    <div class="service-icon-hero" data-service="cement">
+                        <img src="Public/cement.jpg" alt="Cement Supply" class="hero-service-image">
+                        <span class="icon-label">Cement Supply</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Our Core Services</h2>
+                <p class="section-subtitle">Comprehensive Import/Export Solutions Across Key Commodities</p>
+                
+                <div class="services-grid">
+                    <div class="service-card" data-service="oil">
+                        <div class="service-icon">
+                            <img src="Public/oil.jpg" alt="Oil Trading" class="service-image">
+                        </div>
+                        <h3>Oil Trading</h3>
+                        <p>Reliable supply of petroleum products and derivatives to global markets</p>
+                        <div class="service-details">
+                            <p>Our oil division focuses on the reliable supply of petroleum products and derivatives to global markets. We work directly with trusted refineries and suppliers to secure consistent quality and competitive pricing. Our operations include the import and export of crude oil, refined fuels, lubricants, and other petroleum-based products.</p>
+                            <p>We handle every stage of the process from contract negotiation and documentation to transportation and storage ensuring compliance with international regulations and environmental standards. By combining industry expertise with logistical efficiency, we help our clients secure their energy needs with confidence.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-service="cotton">
+                        <div class="service-icon">
+                            <img src="Public/cotton.jpeg" alt="Cotton Trade" class="service-image">
+                        </div>
+                        <h3>Cotton Trade</h3>
+                        <p>Premium-quality cotton sourced from leading producers worldwide</p>
+                        <div class="service-details">
+                            <p>We connect textile manufacturers, distributors, and suppliers across continents with premium-quality cotton sourced from leading producers. Our cotton portfolio includes raw cotton, ginned cotton, and processed fibers suitable for a wide range of textile applications.</p>
+                            <p>With a strong focus on quality control, we ensure that every shipment meets the specific requirements of our clients, from fiber length and strength to purity and packaging. By managing procurement, inspection, and shipping, we provide a seamless experience for buyers and sellers in the global cotton trade.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-service="dry-fruits">
+                        <div class="service-icon">
+                            <img src="Public/dry-friut.jpg" alt="Dry Fruits Export" class="service-image">
+                        </div>
+                        <h3>Dry Fruits Export</h3>
+                        <p>High-quality, naturally grown products from trusted farms</p>
+                        <div class="service-details">
+                            <p>Our dry fruits division specializes in sourcing and exporting high-quality, naturally grown products from trusted farms. We work with a variety of dry fruits, including almonds, walnuts, pistachios, cashews, raisins, and dried apricots.</p>
+                            <p>Each product is carefully inspected and processed to preserve its natural taste, nutritional value, and freshness. We prioritize sustainable sourcing practices and strict hygiene standards, ensuring that our customers receive products that meet both health and market standards.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card" data-service="cement">
+                        <div class="service-icon">
+                            <img src="Public/cement.jpg" alt="Cement Supply" class="service-image">
+                        </div>
+                        <h3>Cement Supply</h3>
+                        <p>Premium-grade cement for construction projects of all sizes</p>
+                        <div class="service-details">
+                            <p>We provide premium-grade cement to support construction projects of all sizes from residential buildings to large-scale infrastructure developments. Sourced from leading manufacturers, our cement meets international strength and durability standards.</p>
+                            <p>Our logistics network ensures on-time delivery to ports and project sites, with the capacity to handle both bulk shipments and packaged cement. By maintaining consistent quality and competitive pricing, we help builders and developers keep their projects on schedule and within budget.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Founded in 2012, Ahmad Nikzad Khurasani has established itself as a leading global trading company dedicated to facilitating seamless import and export operations between Asia, Europe, and markets worldwide. Our journey began with a vision to bridge international markets and create opportunities for businesses across continents through reliable, efficient, and transparent trading solutions.</p>
+                        
+                        <p>Over the past decade, we have built a reputation for excellence in the global commodities market, specializing in high-demand products that drive economies and industries. Our comprehensive approach encompasses the entire trade cycle from initial sourcing and procurement to rigorous quality assurance, efficient logistics management, and timely final delivery. This end-to-end service model ensures that our clients receive consistent, high-quality products while maintaining competitive pricing and meeting strict international standards.</p>
+                        
+                        <p>Our success is built on the foundation of strong international partnerships, deep market expertise, and a robust supply chain network that spans multiple continents. We have cultivated relationships with trusted suppliers, manufacturers, and logistics providers worldwide, enabling us to offer our clients access to premium products and reliable delivery services. Our team of experienced professionals brings decades of combined knowledge in international trade, market analysis, and regulatory compliance, ensuring that every transaction meets the highest standards of quality, compliance, and timeliness.</p>
+                        
+                        <p>As we continue to grow and expand our global footprint, we remain committed to our core values of integrity, transparency, and customer satisfaction. We understand that in today's interconnected world, businesses need partners they can trust to navigate the complexities of international trade. That's why we invest heavily in technology, infrastructure, and human resources to provide our clients with the most efficient and reliable trading solutions available in the market.</p>
+                    </div>
+                    <div class="about-background-logo">
+                        <img src="Public/logo.png" alt="Ahmad Nikzad Khurasani" class="about-logo-bg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-number" data-target="12">0+</div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number" data-target="50">0+</div>
+                        <div class="stat-label">Professional Workers</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="stat-number" data-target="25">0+</div>
+                        <div class="stat-label">Countries Worldwide</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose Us</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global Network</h3>
+                        <p>Strong partnerships with suppliers and buyers across Asia, Europe, and beyond.</p>
+                        <div class="feature-button">Global Reach</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Quality Assurance</h3>
+                        <p>Rigorous inspection and compliance with international standards.</p>
+                        <div class="feature-button">Quality First</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3>End-to-End Service</h3>
+                        <p>Complete handling from sourcing to final delivery.</p>
+                        <div class="feature-button">Full Service</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Market Expertise</h3>
+                        <p>Deep understanding of commodity markets and price trends.</p>
+                        <div class="feature-button">Expert Knowledge</div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Reliable Logistics</h3>
+                        <p>Efficient shipping and customs clearance for timely arrivals.</p>
+                        <div class="feature-button">Fast Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-buttons">
+                        <div class="contact-button" data-type="headquarters">
+                            <div class="contact-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Headquarters</h3>
+                                <p>Mazar Sharif, Afghanistan</p>
+                            </div>
+                        </div>
+                        <div class="contact-button" data-type="email">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Email</h3>
+                                <p>info@ahmadnikzad.ltd</p>
+                            </div>
+                        </div>
+                        <div class="contact-button" data-type="whatsapp1">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>WhatsApp</h3>
+                                <p>+90 539 436 2930</p>
+                            </div>
+                        </div>
+                        <div class="contact-button" data-type="whatsapp2">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>WhatsApp</h3>
+                                <p>+93 782 068 888</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="Public/logo.png" alt="Ahmad Nikzad Khurasani" class="footer-logo-img">
+                        <p>Ahmad Nikzad Khurasani</p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#services">Services</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Ahmad Nikzad Khurasani. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
